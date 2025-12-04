@@ -1,0 +1,144 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #444;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #556B2F;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.nav-container {
+    width: 85%;
+    margin: 20px auto;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    background-color: #fff;
+}
+.main-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.main-nav li {
+    display: inline;
+    margin: 0 10px;
+}
+.main-nav li a {
+    color: #556B2F;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+.main-nav li a:hover {
+    color: #8B4513;
+    text-decoration: underline;
+}
+
+.container {
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+}
+h2 {
+    color: #556B2F;
+    border-bottom: 2px solid #D2B48C;
+    padding-bottom: 8px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+h3 {
+    color: #556B2F;
+}
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.image-gallery-table {
+    border-collapse: collapse;
+    background-color: #F8F8FF;
+    padding: 10px;
+}
+.image-gallery-table td {
+    padding: 10px;
+}
+.image-gallery-table img {
+    border: 1px solid #556B2F;
+    width: 120px;
+    height: 120px;
+}
+
+.form-section {
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #EFEFEF;
+}
+.form-section input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #aaa;
+}
+
+.links-section {
+    width: 85%;
+    margin: 30px auto 30px;
+    padding: 20px;
+    background-color: #EFEFEF;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.links-section h3 {
+    color: #556B2F;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.links-section ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.links-section li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.links-section a {
+    display: block;
+    background-color: #A0D4B2;
+    color: #333;
+    padding: 10px 20px;
+    border: 1px solid #556B2F;
+    text-decoration: none;
+    font-weight: bold;
+}
+.links-section a:hover {
+    background-color: #8B4513;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
